@@ -13,11 +13,11 @@ public class Washing extends Appliances{
 
     public Washing(int cost, String type) {
 
-        super(cost,type, "Пылесос");
+        super(cost,type, "Стиральная машинка");
     }
 
     @Override
     public String getDescription() {
-        return super.getDescription() + " Объем барабана: " + drumCapacity;
+        return super.getDescription() + " Объем барабана: " + drumCapacity+ ";";
     }
 }
