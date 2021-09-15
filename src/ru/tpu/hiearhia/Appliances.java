@@ -1,18 +1,18 @@
 package ru.tpu.hiearhia;
 
-public class Appliances
+public abstract class Appliances
 {
-    private int cost;
-    private String type;
-    private String hero;
+            private int cost;
+            private String type;
+            private String hero;
 
-    public int getCost() {
-        return cost;
-    }
-    public void setCost(int cost)
-    {
-        if (cost <=0){
-            System.out.println("Цена отрицательна");
+            public int getCost() {
+                return cost;
+            }
+            public void setCost(int cost)
+            {
+                if (cost <=0){
+                    System.out.println("Цена отрицательна");
         }
         else {
             this.cost = cost;

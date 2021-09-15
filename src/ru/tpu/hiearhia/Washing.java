@@ -13,7 +13,7 @@ public class Washing extends Appliances{
 
     public Washing(int cost, String type) {
 
-        super(cost,type, "Пылесос");
+        super(cost,type, "Стиральная машина");
     }
 
     @Override
