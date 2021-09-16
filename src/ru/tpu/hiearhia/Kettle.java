@@ -1,6 +1,6 @@
 package ru.tpu.hiearhia;
 
-public interface Washing  {
+public interface Kettle  {
     public abstract  int getCost();
     public abstract  String getName();
     public abstract  String getType();

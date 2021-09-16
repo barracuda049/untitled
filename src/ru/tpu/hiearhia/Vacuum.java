@@ -1,12 +1,8 @@
 package ru.tpu.hiearhia;
 
-public class Vacuum extends Appliances {
-
-
-    public Vacuum(int cost, String type) {
-        super(cost, type, "Пылесос");
-    }
-
+public interface Vacuum {
+    public abstract  int getCost();
+    public abstract  String getName();
+    public abstract  String getType();
+    public abstract  void getDisc();
 }
-
-
